@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+    "type": "java",
+    "name": "Debug QuizLeaderboardServer",
+    "request": "launch",
+    "mainClass": "com.quizlead.QuizLeaderboardServer",
+    "projectName": "quizlead"
+        },
+
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
