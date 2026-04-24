@@ -65,7 +65,7 @@ Copy or deploy the `docs/` directory as the Pages source in repository settings 
 
 > Note: GitHub Pages only serves the static frontend. The Java backend and MongoDB database still need a separate host.
 
-### hosting combination
+### Best hosting combination
 
 - Frontend: GitHub Pages (`docs/` folder)
 - Backend: Railway or Render running the Java `QuizLeaderboardServer`
