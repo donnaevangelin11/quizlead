@@ -48,16 +48,6 @@ java -cp target/quizlead-0.1.0-jar-with-dependencies.jar com.quizlead.QuizLeader
 
 Then open `http://localhost:8080`.
 
-### MongoDB configuration
-
-The server persists leaderboard results to MongoDB using the following defaults:
-
-- `MONGODB_URI` — defaults to `mongodb://localhost:27017`
-- `MONGODB_DB` — defaults to `quizlead`
-- `MONGODB_COLLECTION` — defaults to `leaderboards`
-
-If you want to override these values, set the environment variables before starting the server.
-
 ### GitHub Pages
 
 The frontend can be hosted on GitHub Pages from the `docs/` folder in this repository.
@@ -71,7 +61,7 @@ Copy or deploy the `docs/` directory as the Pages source in repository settings 
 - Backend: Railway or Render running the Java `QuizLeaderboardServer`
 - Database: MongoDB Atlas managed cluster
 
-### Recommended deployment pathway
+### Recommended deployment for a complete pathway
 
 1. Push this repository to GitHub.
 2. Enable GitHub Pages with the `docs/` folder as the source.
